@@ -8,6 +8,7 @@ import Start from "./pages/Start";
 import UserProtectWrapper from "./protectRoute/UserProtectWrapper";
 import CaptainHome from "./pages/CaptainHome";
 import CaptainProtectWrapper from "./protectRoute/CaptainProtectWrapper";
+import CaptainRiding from "./pages/CaptainRiding";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/userSignup" element={<UserSignup />} />
         <Route path="/captainLogin" element={<CaptainLogin />} />
         <Route path="/captainSignup" element={<CaptainSignup />} />
+        <Route path="/captainRiding" element={<CaptainRiding/>}/>
 
         <Route
           path="/captainHome"

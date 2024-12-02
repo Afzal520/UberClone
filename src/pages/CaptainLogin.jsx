@@ -30,6 +30,7 @@ const CaptainLogin = () => {
       const result = await response.json(); // Parse the JSON response
       if (result.success) {
         localStorage.setItem("captainToken", result.token);
+        console.log(result)
         navigate("/captainHome");
       }
       console.log("Response from server:", result);

@@ -71,7 +71,7 @@ const Start = () => {
       <div className="h-screen w-screen" onClick={() => settoggleCar(false)}>
         <img
           className="h-full w-full object-cover"
-          src="https://www.researchgate.net/publication/323759986/figure/fig3/AS:631576123682823@1527590890164/Map-in-Uber-application-tracking-user-in-a-Yellow-Cab.png"
+          src="https://community-cdn.openstreetmap.org/uploads/default/original/3X/d/6/d61dcc266a636eb2ada0eab47553bec1619fb014.jpeg"
           alt="Map"
         />
       </div>
